@@ -11,6 +11,8 @@ body {
 
 header {
     text-align: center;
+    top: 0;
+    position: sticky;
 }
 
 h1 {
@@ -63,6 +65,11 @@ del {
 
 #head {
     text-align: center;
+}
+
+footer {
+    bottom: 0;
+    position: sticky;
 }
 
 .footer {
