@@ -4,21 +4,21 @@
     color: rgb(107, 106, 106);
 }
 
+body {
+    border: 2px solid goldenrod;
+    padding: 10px;
+}
+
 header {
     text-align: center;
 }
 
 h1 {
-    font-size: 30px;
-    text-align: left;
+    font-size: 25px;
+    text-align: center;
     padding-left: 20px;
 }
 
-#firsth {
-    font-size: 35px;
-    text-shadow: 2px 2px 0 rgb(255, 187, 2);
-
-}
 
 nav, footer {
     border: 2px solid rgb(218, 165, 32);
@@ -37,19 +37,34 @@ nav a:hover {
     background-color: rgba(218, 165, 32, 0.311);
 }
 
-/* img {
-    height: 220px;
-} */
-
 p {
     font-size: 20px;
 }
 
+del {
+    color: black;
+}
+
 #main {
+    margin: 50px;
     display: flex;
     justify-content: center;
 }
 
+#main p {
+    width: 200px;
+    height: 400px;
+    text-align: center;
+}
+
+#main img {
+    height: 500px;
+}
+
+#head {
+    text-align: center;
+}
+
 .footer {
-    height: 35px;
+    height: 30px;
 }
